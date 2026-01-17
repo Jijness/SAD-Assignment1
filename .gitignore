@@ -1,0 +1,17 @@
+# Bỏ qua môi trường ảo
+venv/
+env/
+
+# Bỏ qua file rác Python biên dịch
+__pycache__/
+*.pyc
+
+# Bỏ qua file cấu hình Editor
+.vscode/
+.idea/
+
+# Bỏ qua db nếu dùng sqlite (dù bạn dùng mysql nhưng cứ thêm cho chắc)
+db.sqlite3
+
+# Bỏ qua file log lỗi
+*.log
